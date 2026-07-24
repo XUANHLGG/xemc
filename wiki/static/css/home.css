@@ -1,0 +1,43 @@
+.wiki-home {
+    padding: 50px 0 !important;
+}
+.wiki-home > .subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-secondary);
+    text-align: center;
+}
+.wiki-home > .title {
+    font-size: 24px;
+    text-align: center;
+    line-height: 240%;
+}
+.wiki-home > .lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 10px 8vw;
+}
+.wiki-home > .lists > .list {
+    width: 100%;
+    border: 1px solid var(--color-border);
+    line-height: 16px;
+    border-bottom: none;
+}
+.wiki-home > .lists > .list > .list-header {
+    background: var(--color-field);
+    color: 14px;
+    padding: 3px 8px;
+    text-align: center;
+}
+.wiki-home > .lists > .list > .list-item {
+    padding: 3px 8px;
+    border-bottom: 1px solid var(--color-border);
+    font-size: 14px;
+    font-family: '宋体';
+    word-break: keep-all;
+    overflow: hidden;
+}
+.wiki-home > .lists > .list > .list-item > a {
+    text-decoration: none;
+}
