@@ -1,0 +1,121 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+}
+* {
+    box-sizing: border-box;
+}
+#marquee {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 28px;
+    z-index: 1000;
+    line-height: 28px;
+    user-select: none;
+    background: #f3e5a9;
+    color: #e0972a;
+    font-size: 14px;
+}
+#header {
+    background: white;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 28px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header--title {
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    user-select: none;
+}
+#container {
+    margin-top: 92px;
+    padding: 5vh 5vw;
+}
+.container--pv {
+    background: #d6d6d6;
+    color: #414141;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0 10px;
+}
+.container--content {
+    margin: 6vh 0;
+}
+.container--content h1 {
+    color: #8abfd4;
+    font-weight: 300;
+}
+.container--content p {
+    font-weight: 300;
+}
+.container--feature {
+    text-align: center;
+}
+.container--feature h2 {
+    /* font-weight: 400; */
+    background: linear-gradient(75deg, #8abfd4, #b3dff8);
+    background-repeat: no-repeat;
+    background-size: 50px 15px;
+    background-position: center bottom;
+    color: #568fa5;
+}
+.container--feature--item {
+    margin: 40px 0;
+    display: flex;
+    padding: 3vh 3vw;
+}
+.container--feature--item > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container--feature--item > div.text {
+    align-items: flex-start;
+    text-align: left;
+}
+.container--feature--item h3 {
+    font-size: 24px;
+    /* color: #568fa5; */
+    font-weight: 400;
+}
+.container--feature--item p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.container--feature--item img {
+    max-width: 80%;
+    max-height: 40vh;
+}
+#footer {
+    background: #d4d4d4;
+    color: #414141;
+    padding: 40px 0;
+    text-align: center;
+}
+#wait {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 1000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #568fa5;
+}
