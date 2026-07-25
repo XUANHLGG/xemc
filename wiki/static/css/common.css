@@ -136,6 +136,7 @@ section a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 8px;
 }
 .wiki-container a.rd::after, .footnote a.rd::after {
     content: "┘";
